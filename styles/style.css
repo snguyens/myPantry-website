@@ -1,0 +1,105 @@
+
+body {
+  left: 0;
+  margin: 0;
+} 
+
+/*BEGIN NAVIGATION BARS*/
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: #FFFFFF;
+  border-bottom: 2px solid #808080;
+  position:fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index:15;
+}
+
+/* Float the list items side by side */
+ul.topnav li {
+  display: inline;
+  list-style: none;
+}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+  display:inline-block;
+  margin-right: -4px;
+  width:180px;
+  font-size: 18pt;
+  font-family:"Open Sans";
+  /*font-weight:bold;*/
+  color:#000000;
+  text-align:center;
+  padding:4px;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+ul.topnav li a:visited {
+  color:#000000;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {
+  /*background-color: #7AF1FA;*/
+  color: #6495ED;
+  text-decoration: overline underline;
+}
+/*END NAVIGATION BARS*/
+
+/*BEGIN CONNECT*/
+/* Aligns the grid */
+.downloadgrid {
+    text-align: center;
+}
+
+/* Aligns the grid */
+.downloadgrideach {
+    padding-right: 10px;  
+    margin: 0 auto;
+    display: inline-block;
+    overflow: hidden;
+}
+/*END CONNECT*/
+
+/*BEGIN MISCELLANEOUS*/
+.imgborder {
+  border: solid 4px yellow;
+}
+
+.transitiontext {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  font-size: 28pt;
+  font-family:"Open Sans";
+  text-decoration:overline underline;
+}
+
+#corners {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+}
+
+#info {
+  text-align: center;
+}
+
+#infotext {
+  font-size: 14pt;
+  font-family:"Open Sans";
+  margin-left:280px;
+  margin-right:280px;  
+}
+
+#infoall {
+  padding-bottom: 100px;
+}
+/*END MISCELLANEOUS*/
